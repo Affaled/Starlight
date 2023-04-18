@@ -4,7 +4,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <div className="container">
+    <div className="container-header">
       <header>
         <Link to="/">
           <img src="#" alt="Logo" />
