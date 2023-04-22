@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "./components/header/Header";
 import { Outlet } from "react-router-dom";
-import "./App.css";
+import "./assets/styles/App.css";
 
-export default function App() {
+function App() {
   return (
     <div>
       <Header />
@@ -11,3 +11,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
