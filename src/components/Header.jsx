@@ -2,6 +2,7 @@ import React from "react";
 import Star from "../assets/icons/star.svg";
 import "../assets/styles/Header.css";
 import "../assets/styles/Header-navbar.css";
+import "../assets/styles/Header-logo.css";
 
 export default function Header() {
   return (

@@ -2,23 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
 
 @font-face {
-  font-family: "Cybergame";
-  src: url("./assets/fonts/Cybergame.ttf");
-}
-@font-face {
-  font-family: "Cyberthic";
-  src: url("./assets/fonts/Cyberthic.otf");
+  font-family: "Cyberpunks";
+  src: url("../fonts/cyberpunks/Cyberpunks.otf") format(opentype),
+    url("../fonts/cyberpunks/Cyberpunks.ttf") format(truetype),
+    url("../fonts/cyberpunks/Cyberpunks Italic.otf") format(opentype),
+    url("../fonts/cyberpunks/Cyberpunks Italic.ttf") format(truetype);
 }
 @font-face {
   font-family: "Cyberway Riders";
-  src: url("./assets/fonts/CyberwayRiders.ttf");
+  src: url("../fonts/cyberway_riders/Cyberway Riders.otf") format(opentype);
 }
 
 :root {
   --primary-font: "Ysabeau", sans-serif;
-  --title-font: "Cybergame", "Orbitron", sans-serif;
+  --title-font: "Cyberpunks", "Orbitron", sans-serif;
 
   --text-color: #f5f5f5;
 
-  --background: #040404;
+  --background: url("../images/background.jpg");
 }

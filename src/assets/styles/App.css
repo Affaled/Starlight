@@ -25,5 +25,8 @@ a {
   font-size: 16px;
 
   color: var(--text-color);
-  background-color: var(--background);
+
+  background-image: var(--background);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

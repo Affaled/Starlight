@@ -1,0 +1,20 @@
+.Logo_container img {
+  display: inline-block;
+
+  position: relative;
+
+  width: 4rem;
+  height: 4rem;
+}
+
+.Logo_container h1 {
+  font-family: var(--title-font);
+  font-size: 26px;
+  letter-spacing: 0.1rem;
+  font-style: italic;
+
+  color: transparent;
+  background: linear-gradient(to right, #ff00ff, #00aaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
