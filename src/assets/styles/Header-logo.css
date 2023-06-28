@@ -13,6 +13,8 @@
   letter-spacing: 0.1rem;
   font-style: italic;
 
+  padding: 0 5px;
+
   color: transparent;
   background: linear-gradient(to right, #ff00ff, #00aaff);
   -webkit-background-clip: text;
