@@ -3,7 +3,7 @@ header {
   position: absolute;
   width: 100vw;
   height: 89px;
-  padding: 0 144px;
+  padding: 0 34px;
   background-color: transparent;
   backdrop-filter: blur(4px);
   border-bottom: 3px solid $line-color;
@@ -30,10 +30,15 @@ header {
     }
   }
   .nav_container {
+    @include flex(row, space-between, center);
+    gap: 34px;
     ul {
       @include flex(row, space-between, center);
       gap: 21px;
       list-style: none;
     }
+  }
+  button {
+    @include button;
   }
 }

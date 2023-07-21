@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap");
 @import "../util/variables";
 @import "../util/functions";
 
@@ -11,6 +11,7 @@
 :root {
   font-family: $primary-font;
   font-size: 16px;
+  font-weight: 400;
 
   background-color: $background-color;
   color: $text-color;

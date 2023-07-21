@@ -13,13 +13,13 @@ export default function Header() {
       </div>
       <nav className="nav_container">
         <ul>
-          <li>INÍCIO</li>
-          <li>SOBRE</li>
-          <li>NOVIDADES</li>
-          <li>GALERIA</li>
-          <li>LOJA</li>
-          <li>CONTATO</li>
+          <li>Início</li>
+          <li>Sobre</li>
+          <li>Novidades</li>
+          <li>Galeria</li>
+          <li>Contato</li>
         </ul>
+        <button>INGRESSOS</button>
       </nav>
     </header>
   );
