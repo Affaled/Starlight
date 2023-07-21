@@ -1,0 +1,39 @@
+header {
+  @include flex(row, space-between, center);
+  position: absolute;
+  width: 100vw;
+  height: 89px;
+  padding: 0 144px;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  border-bottom: 3px solid $line-color;
+  .logo_container {
+    @include flex(row, space-between, center);
+    gap: 13px;
+    img {
+      width: 68px;
+      height: 68px;
+    }
+    div {
+      @include flex(column, center, center);
+      line-height: 1rem;
+      gap: 8px;
+      h1 {
+        font-size: 26px;
+        color: $primary-color;
+      }
+      h2 {
+        font-size: 16px;
+        color: $secondary-color;
+        letter-spacing: 2px;
+      }
+    }
+  }
+  .nav_container {
+    ul {
+      @include flex(row, space-between, center);
+      gap: 21px;
+      list-style: none;
+    }
+  }
+}
